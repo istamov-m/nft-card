@@ -117,16 +117,10 @@ main p {
     font-size: 15px;
     margin-top: 50px; 
     text-align: center; 
-    color: hsl(0, 0%, 100%);
 }
 
 .attribution a { 
-    color: hsl(178, 100%, 50%);
+    color: hsl(228, 45%, 44%);
     text-decoration: none; 
     transition: all 0.3s;
-}
-
-.attribution a:hover { 
-    color: hsl(0, 0%, 100%);
-    text-decoration: none; 
 }
