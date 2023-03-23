@@ -1,0 +1,132 @@
+body {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: hsl(217, 54%, 11%);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Outfit', sans-serif;
+}
+
+main {
+    display: flex;
+    position: relative;
+    background: hsl(216, 50%, 16%);
+    flex-direction: column;
+    border-radius: 18px;
+    padding: 20px;
+    height: 35em;
+    width: 18em;
+    color: hsl(0, 0%, 100%);
+}
+
+main img {
+    width: 18em;
+    border-radius: 10px;
+    margin: 0;
+}
+
+.eye {
+    position: absolute;
+    bottom: 0;
+    top: 20px;
+    left: 20px;
+    opacity: 0;
+    right: 0;
+    background: hsl(178, 100%, 50%, 50%);
+    padding: 7.6em;
+    bottom: 18.4em;
+    width: 45px;
+    transition: 0.3s;
+}
+
+.eye:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+main img:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.creator {
+    display: flex;
+    margin-top: 20px;
+    width: auto;
+    align-items: center;
+}
+
+.creator img {
+    width: 2em;
+    height: 2em;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50px;
+    margin-right: 15px;
+}
+
+h2 {
+    font-weight: 600;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+h2:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.price {
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+}
+
+main p {
+    font-weight: 300;
+}
+
+.price p:first-child {
+    color: hsl(178, 100%, 50%);
+}
+
+.clock, p {
+    color: hsl(215, 51%, 70%);
+}
+
+
+.line {
+    position: relative;
+    top: 15px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid hsl(215, 32%, 27%);
+}
+
+.creator a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    transition: 0.3s;
+}
+
+.creator a:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.attribution {
+    font-size: 15px;
+    margin-top: 50px; 
+    text-align: center; 
+    color: hsl(0, 0%, 100%);
+}
+
+.attribution a { 
+    color: hsl(178, 100%, 50%);
+    text-decoration: none; 
+    transition: all 0.3s;
+}
+
+.attribution a:hover { 
+    color: hsl(0, 0%, 100%);
+    text-decoration: none; 
+}
